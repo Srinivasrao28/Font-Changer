@@ -1,0 +1,103 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Danfo&family=Jacquard+12&family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Teko:wght@300..700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header  */
+
+header{
+    width: 100vw;
+    height: 7vh;
+    background-color:rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 130px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Main  */
+
+body{
+    background: url(Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+#fonts{
+    width: 15vw;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: black;
+    font-weight: 550;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#text{
+    width: 60vw;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    color: black;
+    border: 0;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+#btn{
+    width: 10vw;
+    height: 40px;
+    background: White;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    margin-left: 20px;
+    font-weight: 550;
+}
+
+/* Footer  */
+
+footer{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+p{
+    color: aliceblue;
+    cursor: no-drop;
+}
